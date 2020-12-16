@@ -1,4 +1,51 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--primari);
+}
+
 header h2 {
     width: 100%;
     text-align: center;
+    font-size: 5rem;
+    color: var(--bg);
 }
+
+
+#user-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user-section div {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+#user-section div a {
+    text-decoration: none;
+    padding: 2px;
+    font-size: 14pt;
+}
+
+#user-section img {
+    width: 500px;
+    height: 100px;
+} 
+
+#languages-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#languages-section div,
+#user-section {
+    padding: 10px 0px;
+} 
